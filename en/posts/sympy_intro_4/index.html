@@ -1,94 +1,70 @@
 <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-            <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>
-Sympy IV - Visualization        </title>
-
-
-        <link href="https://junjiecai.github.io/en/theme/css/bootstrap.css" rel="stylesheet">
-        <link href="https://junjiecai.github.io/en/theme/css/clean-blog.css" rel="stylesheet">
-
-
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
-              type="text/css">
-        <script src="https://junjiecai.github.io/en/theme/js/bootstrap.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css">
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
+    <link href="https://junjiecai.github.io/en/theme/css/clean-blog.css" rel="stylesheet">
 </head>
-
 <body>
-
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://junjiecai.github.io/en/categories.html">Categories</a></li>
-                    <li><a href="https://junjiecai.github.io/en/tags.html">Tags</a></li>
-                    <li><a href="https://junjiecai.github.io/en/archives.html">Archives</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- /.container -->
-</nav>
-
-    <!-- Page Header -->
-        <header class="intro-header"
-                style="background-image: url('https://junjiecai.github.io/en/theme/images/bg_image.jpg')">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-heading">
-                <h1>Sympy IV - Visualization</h1>
-                <span class="meta">
-                                Author:
-                    JunjieCai
-                        </span>
-                <span class="meta">
-                                Publish:
-                    22/05/2022
-                        </span>
-                <span class="meta">
-                                Modified:
-                    
-                        </span>
-                            Tanslation:
-                <a href="https://junjiecai.github.io/en/../posts/sympy_intro_4/index.html">中文</a>
-
+<header>
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://junjiecai.github.io/en/categories.html">Categories</a></li>
+                        <li><a href="https://junjiecai.github.io/en/tags.html">Tags</a></li>
+                        <li><a href="https://junjiecai.github.io/en/archives.html">Archives</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>
-</header>
+    </nav>
 
-<!-- Main Content -->
+        <div
+                class="p-5 text-center bg-image"
+                style="
+                background-image: url('https://i.swncdn.com/media/800w/cms/CW/faith/59666-sunrise-2-1200.1200w.tn.webp');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 300px;
+                margin-top: 20px;
+    "
+        >
+            <div class="mask" style="background-color: rgba(0, 0, 255, 0.1);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        Junjie's Notebook
+                        <h1>Sympy I-Introduction</h1>
+                        <p>JunjieCai </p>
+                        <p>22/05/2022 </p>
+                        <p>24/05/2022</p>
+                        <span>Tanslation: <a
+                                href="https://junjiecai.github.io/en/../posts/sympy_intro_1/index.html">中文</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
+</body>
+
 <div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <!-- Post Content -->
-    <div id="toc" class='toc' style="position: fixed; left:50px; top:182px"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <article>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-    <p>
-        It is recommended to download the .ipynb file and related resources <a href="https://github.com/junjiecai/blog_notebooks/blob/main//")>here</a>. Then you can test the codes in the article interactively while you are reading in Jupyter.
-    </p>
-</div>
-</div>
-</div>                    <div class='content'>
-                        <style type="text/css">/*!
+            <div class="col-md-2">
+                <div style="position: fixed; left:50px; top:350px">
+                    <div id="toc" class='toc'></div>
+                </div>
+            </div>
+            <div class="col-md-10 justify-content-center">
+                <div class="js-toc-content">
+                    <style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -2387,42 +2363,26 @@ https://github.com/sympy/sympy/issues/16587 for more info.
 }
 </script>
 
-                    </div>
-                </article>
-                <script>
-                    tocbot.init({
-                        headingsOffset: 0,
-                        scrollSmoothOffset: 0,
-                        // Where to render the table of contents.
-                        tocSelector: '.toc',
-                        // Where to grab the headings to build the table of contents.
-                        contentSelector: '.content',
-                        // Which headings to grab inside of the contentSelector element.
-                        headingSelector: 'h1, h2, h3',
-                        // For headings inside relative or absolute positioned containers within content.
-                        hasInnerContainers: false,
-                        ignoreSelector: 'a'
-                    });
-                </script>
-
-                <div>
-                        <div class="tags">
-                            <p>tags:                                 <a href="https://junjiecai.github.io/en/tag/jupyter_notebook.html">jupyter_notebook</a>,
-                                <a href="https://junjiecai.github.io/en/tag/math.html">math</a>,
-                                <a href="https://junjiecai.github.io/en/tag/sympy.html">sympy</a></p>
-                        </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <hr>
-        </div>
+            <script>
+                tocbot.init({
+                    headingsOffset: 0,
+                    scrollSmoothOffset: 0,
+                    tocSelector: '#toc',
+                    contentSelector: '.js-toc-content',
+                    hasInnerContainers: true,
+                    headingSelector: 'h1, h2, h3',
+                    collapseDepth: 0,
+                    scrollSmooth: true,
+                    scrollSmoothDuration: 420,
+                    scrollSmoothOffset: 0,
+                });
+                tocbot.refresh();
+            </script>
     </div>
 </div>
 
-<hr>
-
-<!-- Footer -->
 <footer>
     <div class="container">
         <div class="row">
@@ -2436,6 +2396,5 @@ https://github.com/sympy/sympy/issues/16587 for more info.
         </div>
     </div>
 </footer>
-</body>
 
 </html>

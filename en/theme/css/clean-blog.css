@@ -240,7 +240,7 @@ div.cell {
     display: -moz-box;
     -moz-box-orient: vertical;
     -moz-box-align: stretch;
-    display:-ms-flexbox;
+    display: -ms-flexbox;
     /* Modern browsers */
     display: flex;
     flex-direction: column;
@@ -351,6 +351,7 @@ div.cell.selected.jupyter-soft-selected:before {
     user-select: none;
     /* Use default cursor */
     cursor: default;
+    display: none;
 }
 
 @media (max-width: 540px) {
