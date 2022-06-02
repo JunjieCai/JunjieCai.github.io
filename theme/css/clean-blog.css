@@ -334,23 +334,23 @@ div.cell.selected.jupyter-soft-selected:before {
 
 .prompt {
     /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
-    min-width: 14ex;
-    /* This padding is tuned to match the padding on the CodeMirror editor. */
-    padding: 0.4em;
-    margin: 0px;
-    font-family: monospace;
-    text-align: right;
-    /* This has to match that of the the CodeMirror class line-height below */
-    line-height: 1.21429em;
-    /* Don't highlight prompt number selection */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    /* Use default cursor */
-    cursor: default;
+    /*min-width: 14ex;*/
+    /*!* This padding is tuned to match the padding on the CodeMirror editor. *!*/
+    /*padding: 0.4em;*/
+    /*margin: 0px;*/
+    /*font-family: monospace;*/
+    /*text-align: right;*/
+    /*!* This has to match that of the the CodeMirror class line-height below *!*/
+    /*line-height: 1.21429em;*/
+    /*!* Don't highlight prompt number selection *!*/
+    /*-webkit-touch-callout: none;*/
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+    /*!* Use default cursor *!*/
+    /*cursor: default;*/
     display: none;
 }
 
