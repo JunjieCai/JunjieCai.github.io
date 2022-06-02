@@ -240,9 +240,7 @@ div.cell {
     display: -moz-box;
     -moz-box-orient: vertical;
     -moz-box-align: stretch;
-    display: box;
-    box-orient: vertical;
-    box-align: stretch;
+    display:-ms-flexbox;
     /* Modern browsers */
     display: flex;
     flex-direction: column;
@@ -257,7 +255,7 @@ div.cell {
     width: 100%;
     padding: 5px;
     /* This acts as a spacer between cells, that is outside the border */
-    margin: 0px;
+    margin: 0;
     outline: none;
     position: relative;
     overflow: visible;
@@ -370,7 +368,7 @@ div.inner_cell {
     display: -moz-box;
     -moz-box-orient: vertical;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: vertical;
     box-align: stretch;
     /* Modern browsers */
@@ -410,7 +408,7 @@ div.unrecognized_cell {
     display: -moz-box;
     -moz-box-orient: horizontal;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: horizontal;
     box-align: stretch;
     /* Modern browsers */
@@ -464,7 +462,7 @@ div.input {
     display: -moz-box;
     -moz-box-orient: horizontal;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: horizontal;
     box-align: stretch;
     /* Modern browsers */
@@ -482,7 +480,7 @@ div.input {
         display: -moz-box;
         -moz-box-orient: vertical;
         -moz-box-align: stretch;
-        display: box;
+        display: -ms-flexbox;
         box-orient: vertical;
         box-align: stretch;
         /* Modern browsers */
@@ -783,7 +781,7 @@ div.output_wrapper {
     display: -moz-box;
     -moz-box-orient: vertical;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: vertical;
     box-align: stretch;
     /* Modern browsers */
@@ -817,7 +815,7 @@ div.output_collapsed {
     display: -moz-box;
     -moz-box-orient: vertical;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: vertical;
     box-align: stretch;
     /* Modern browsers */
@@ -855,7 +853,7 @@ div.output_area {
     display: -moz-box;
     -moz-box-orient: horizontal;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: horizontal;
     box-align: stretch;
     /* Modern browsers */
@@ -895,7 +893,7 @@ div.output_area .mglyph > img {
     display: -moz-box;
     -moz-box-orient: vertical;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: vertical;
     box-align: stretch;
     /* Modern browsers */
@@ -913,7 +911,7 @@ div.output_area .mglyph > img {
         display: -moz-box;
         -moz-box-orient: vertical;
         -moz-box-align: stretch;
-        display: box;
+        display: -ms-flexbox;
         box-orient: vertical;
         box-align: stretch;
         /* Modern browsers */
@@ -1118,7 +1116,7 @@ div.text_cell {
     display: -moz-box;
     -moz-box-orient: horizontal;
     -moz-box-align: stretch;
-    display: box;
+    display: -ms-flexbox;
     box-orient: horizontal;
     box-align: stretch;
     /* Modern browsers */
