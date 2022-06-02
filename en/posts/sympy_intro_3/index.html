@@ -11,13 +11,11 @@ Sympy III- Matrix        </title>
 
         <!-- Bootstrap Core CSS -->
         <link href="https://junjiecai.github.io/en/theme/css/bootstrap.css" rel="stylesheet">
-        <link href="https://junjiecai.github.io/en/theme/css/bootstrap-theme.css" rel="stylesheet">
         <!-- Custom CSS -->
         <link href="https://junjiecai.github.io/en/theme/css/clean-blog.css" rel="stylesheet">
 
 
         <!-- Code highlight color scheme -->
-            <link href="https://junjiecai.github.io/en/theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
@@ -1224,7 +1222,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
  .highlight pre  .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Initialize-Enviroment">Initialize Enviroment<a class="anchor-link" href="#Initialize-Enviroment">&#182;</a></h1>
+<h1 id="Initialize-Enviroment">Initialize Enviroment<a class="anchor-link" href="#Initialize-Enviroment"></a></h1>
 </div>
 </div>
 </div>
@@ -1254,14 +1252,14 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Matrices">Matrices<a class="anchor-link" href="#Matrices">&#182;</a></h1>
+<h1 id="Matrices">Matrices<a class="anchor-link" href="#Matrices"></a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Construct-matrix">Construct matrix<a class="anchor-link" href="#Construct-matrix">&#182;</a></h2><h3 id="Construct-matrix-from-list">Construct matrix from list<a class="anchor-link" href="#Construct-matrix-from-list">&#182;</a></h3><p>To make a matrix in Sympy, initialize a <code>Matrix</code> class by providing a list of row vectors (nested list).</p>
+<h2 id="Construct-matrix">Construct matrix<a class="anchor-link" href="#Construct-matrix"></a></h2><h3 id="Construct-matrix-from-list">Construct matrix from list<a class="anchor-link" href="#Construct-matrix-from-list"></a></h3><p>To make a matrix in Sympy, initialize a <code>Matrix</code> class by providing a list of row vectors (nested list).</p>
 
 </div>
 </div>
@@ -1353,7 +1351,7 @@ $\displaystyle \left[\begin{matrix}1\\2\\3\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Common-Matrix-Constructors">Common Matrix Constructors<a class="anchor-link" href="#Common-Matrix-Constructors">&#182;</a></h2>
+<h2 id="Common-Matrix-Constructors">Common Matrix Constructors<a class="anchor-link" href="#Common-Matrix-Constructors"></a></h2>
 </div>
 </div>
 </div>
@@ -1368,7 +1366,7 @@ $\displaystyle \left[\begin{matrix}1\\2\\3\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Identity-Matrix">Identity Matrix<a class="anchor-link" href="#Identity-Matrix">&#182;</a></h3><p>To create identity matrix, use <code>eye(n)</code></p>
+<h3 id="Identity-Matrix">Identity Matrix<a class="anchor-link" href="#Identity-Matrix"></a></h3><p>To create identity matrix, use <code>eye(n)</code></p>
 
 </div>
 </div>
@@ -1411,7 +1409,7 @@ $\displaystyle \left[\begin{matrix}1 & 0 & 0\\0 & 1 & 0\\0 & 0 & 1\end{matrix}\r
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Matrix-of-Zero">Matrix of Zero<a class="anchor-link" href="#Matrix-of-Zero">&#182;</a></h3><p>To create a zero matrix, use <code>zero(n)</code></p>
+<h3 id="Matrix-of-Zero">Matrix of Zero<a class="anchor-link" href="#Matrix-of-Zero"></a></h3><p>To create a zero matrix, use <code>zero(n)</code></p>
 
 </div>
 </div>
@@ -1454,7 +1452,7 @@ $\displaystyle \left[\begin{matrix}0 & 0 & 0 & 0\\0 & 0 & 0 & 0\\0 & 0 & 0 & 0\e
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Matrix-of-Ones">Matrix of Ones<a class="anchor-link" href="#Matrix-of-Ones">&#182;</a></h3><p>To create a zero matrix, use <code>one(n)</code></p>
+<h3 id="Matrix-of-Ones">Matrix of Ones<a class="anchor-link" href="#Matrix-of-Ones"></a></h3><p>To create a zero matrix, use <code>one(n)</code></p>
 
 </div>
 </div>
@@ -1497,7 +1495,7 @@ $\displaystyle \left[\begin{matrix}1 & 1\\1 & 1\\1 & 1\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Diagonal">Diagonal<a class="anchor-link" href="#Diagonal">&#182;</a></h3><p>Pass multiple matrix or numbers to construct a diagonal matrix. Numbers will be intepreted as $1 \times 1$ matrix.</p>
+<h3 id="Diagonal">Diagonal<a class="anchor-link" href="#Diagonal"></a></h3><p>Pass multiple matrix or numbers to construct a diagonal matrix. Numbers will be intepreted as $1 \times 1$ matrix.</p>
 
 </div>
 </div>
@@ -1540,14 +1538,14 @@ $\displaystyle \left[\begin{matrix}-1 & 0 & 0 & 0\\0 & 1 & 1 & 0\\0 & 1 & 1 & 0\
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Basic-operations">Basic operations<a class="anchor-link" href="#Basic-operations">&#182;</a></h2>
+<h2 id="Basic-operations">Basic operations<a class="anchor-link" href="#Basic-operations"></a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Shape">Shape<a class="anchor-link" href="#Shape">&#182;</a></h3>
+<h3 id="Shape">Shape<a class="anchor-link" href="#Shape"></a></h3>
 </div>
 </div>
 </div>
@@ -1595,7 +1593,7 @@ $\displaystyle \left( 6, \  4\right)$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Get-rows-and-columns">Get rows and columns<a class="anchor-link" href="#Get-rows-and-columns">&#182;</a></h3><p>Use <code>row()</code> and <code>col()</code> to get single row and column.</p>
+<h3 id="Get-rows-and-columns">Get rows and columns<a class="anchor-link" href="#Get-rows-and-columns"></a></h3><p>Use <code>row()</code> and <code>col()</code> to get single row and column.</p>
 <p>To get the first row</p>
 
 </div>
@@ -1678,7 +1676,7 @@ $\displaystyle \left[\begin{matrix}0\\0\\0\\5\\7\\5\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Delete-Rows-and-Columns">Delete Rows and Columns<a class="anchor-link" href="#Delete-Rows-and-Columns">&#182;</a></h3><p>To delete a row or column, use <code>row_del</code> and <code>col_del</code>. These operaitons modify the matrix inplace.</p>
+<h3 id="Delete-Rows-and-Columns">Delete Rows and Columns<a class="anchor-link" href="#Delete-Rows-and-Columns"></a></h3><p>To delete a row or column, use <code>row_del</code> and <code>col_del</code>. These operaitons modify the matrix inplace.</p>
 <p>For example, we create a matrix then delete the first row and last column.</p>
 
 </div>
@@ -1766,7 +1764,7 @@ $\displaystyle \left[\begin{matrix}3 & 2\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Transpose-of-Matrix">Transpose of Matrix<a class="anchor-link" href="#Transpose-of-Matrix">&#182;</a></h3><p>Use <code>T</code></p>
+<h3 id="Transpose-of-Matrix">Transpose of Matrix<a class="anchor-link" href="#Transpose-of-Matrix"></a></h3><p>Use <code>T</code></p>
 
 </div>
 </div>
@@ -1849,7 +1847,7 @@ $\displaystyle \left[\begin{matrix}1 & 4\\2 & 5\\3 & 6\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Insert-Rows-and-Columns">Insert Rows and Columns<a class="anchor-link" href="#Insert-Rows-and-Columns">&#182;</a></h3><p>To insert rows and columns, use <code>row_insert</code> and <code>col_insert</code>. These operations don't operate inplace and return a new matrix with modified data.</p>
+<h3 id="Insert-Rows-and-Columns">Insert Rows and Columns<a class="anchor-link" href="#Insert-Rows-and-Columns"></a></h3><p>To insert rows and columns, use <code>row_insert</code> and <code>col_insert</code>. These operations don't operate inplace and return a new matrix with modified data.</p>
 <p><code>row_insert()</code> accepts a position and a $1 \times n$  matrix.</p>
 
 </div>
@@ -2022,8 +2020,8 @@ $\displaystyle \left[\begin{matrix}1 & 2 & 6 & 3\\3 & 2 & 6 & 1\end{matrix}\righ
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Matrix-Computation">Matrix Computation<a class="anchor-link" href="#Matrix-Computation">&#182;</a></h2><p>Basic matrix computation like addition, substraction, multiplication and inversion can be achived through python operators <code>+</code>,<code>-</code>,<code>*</code>,<code>**</code></p>
-<h3 id="Addition">Addition<a class="anchor-link" href="#Addition">&#182;</a></h3>
+<h2 id="Matrix-Computation">Matrix Computation<a class="anchor-link" href="#Matrix-Computation"></a></h2><p>Basic matrix computation like addition, substraction, multiplication and inversion can be achived through python operators <code>+</code>,<code>-</code>,<code>*</code>,<code>**</code></p>
+<h3 id="Addition">Addition<a class="anchor-link" href="#Addition"></a></h3>
 </div>
 </div>
 </div>
@@ -2130,7 +2128,7 @@ $\displaystyle \left[\begin{matrix}1 & 6\\-2 & 10\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Substraction">Substraction<a class="anchor-link" href="#Substraction">&#182;</a></h3>
+<h3 id="Substraction">Substraction<a class="anchor-link" href="#Substraction"></a></h3>
 </div>
 </div>
 </div>
@@ -2237,7 +2235,7 @@ $\displaystyle \left[\begin{matrix}1 & 0\\-2 & -4\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Multiplication">Multiplication<a class="anchor-link" href="#Multiplication">&#182;</a></h3>
+<h3 id="Multiplication">Multiplication<a class="anchor-link" href="#Multiplication"></a></h3>
 </div>
 </div>
 </div>
@@ -2346,7 +2344,7 @@ $\displaystyle \left[\begin{matrix}5\\3\end{matrix}\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Inverse">Inverse<a class="anchor-link" href="#Inverse">&#182;</a></h3>
+<h3 id="Inverse">Inverse<a class="anchor-link" href="#Inverse"></a></h3>
 </div>
 </div>
 </div>
@@ -2426,7 +2424,7 @@ $\displaystyle \left[\begin{matrix}\frac{1}{3} & - \frac{1}{3}\\\frac{2}{9} & \f
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Determinant">Determinant<a class="anchor-link" href="#Determinant">&#182;</a></h2><p>To get determinant of matrix, use <code>det</code></p>
+<h2 id="Determinant">Determinant<a class="anchor-link" href="#Determinant"></a></h2><p>To get determinant of matrix, use <code>det</code></p>
 
 </div>
 </div>
@@ -2504,7 +2502,7 @@ $\displaystyle -1$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="RREF">RREF<a class="anchor-link" href="#RREF">&#182;</a></h3><p>To put a matrix into reduced echelon form, use <code>rref()</code>. It returns a matrix of two elements, the first is the reduced echelon form and the second is a list of indices of the pivot columns.</p>
+<h3 id="RREF">RREF<a class="anchor-link" href="#RREF"></a></h3><p>To put a matrix into reduced echelon form, use <code>rref()</code>. It returns a matrix of two elements, the first is the reduced echelon form and the second is a list of indices of the pivot columns.</p>
 
 </div>
 </div>
@@ -2615,7 +2613,7 @@ $\displaystyle \left( 0, \  1\right)$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Nullspace">Nullspace<a class="anchor-link" href="#Nullspace">&#182;</a></h3>
+<h3 id="Nullspace">Nullspace<a class="anchor-link" href="#Nullspace"></a></h3>
 </div>
 </div>
 </div>
@@ -2703,7 +2701,7 @@ $\displaystyle \left[ \left[\begin{matrix}-15\\6\\1\\0\\0\end{matrix}\right], \ 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Column-space">Column space<a class="anchor-link" href="#Column-space">&#182;</a></h3>
+<h3 id="Column-space">Column space<a class="anchor-link" href="#Column-space"></a></h3>
 </div>
 </div>
 </div>
@@ -2791,7 +2789,7 @@ $\displaystyle \left[ \left[\begin{matrix}1\\2\\3\end{matrix}\right], \  \left[\
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Eigenvalues-and-Eigenvectors">Eigenvalues and Eigenvectors<a class="anchor-link" href="#Eigenvalues-and-Eigenvectors">&#182;</a></h3><p>To find the eigenvalues of a matrix, use <code>eigenvals</code>. It returns a dictionary of eigenvalue:algebraic multiplicity pairs.</p>
+<h3 id="Eigenvalues-and-Eigenvectors">Eigenvalues and Eigenvectors<a class="anchor-link" href="#Eigenvalues-and-Eigenvectors"></a></h3><p>To find the eigenvalues of a matrix, use <code>eigenvals</code>. It returns a dictionary of eigenvalue:algebraic multiplicity pairs.</p>
 
 </div>
 </div>
@@ -3045,7 +3043,7 @@ $\displaystyle \left(\lambda - 5\right)^{2} \left(\lambda - 3\right) \left(\lamb
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Diagonalization">Diagonalization<a class="anchor-link" href="#Diagonalization">&#182;</a></h2><p>To diagonalize a matrix , use <code>diagonalize()</code>. diagonalize returns a tuple ($P$,$D$), where D is diagonal and $M = PDP^{-1}$.</p>
+<h2 id="Diagonalization">Diagonalization<a class="anchor-link" href="#Diagonalization"></a></h2><p>To diagonalize a matrix , use <code>diagonalize()</code>. diagonalize returns a tuple ($P$,$D$), where D is diagonal and $M = PDP^{-1}$.</p>
 
 </div>
 </div>
@@ -3192,7 +3190,7 @@ $\displaystyle \left[\begin{matrix}3 & -2 & 4 & -2\\5 & 3 & -3 & -2\\5 & -2 & 2 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Solvers">Solvers<a class="anchor-link" href="#Solvers">&#182;</a></h1><h2 id="Basic-equations">Basic equations<a class="anchor-link" href="#Basic-equations">&#182;</a></h2><p>The main function for solving algebraic equations is <code>solveset()</code>. The syntax for <code>solveset()</code> is <code>solveset(equation, variable=None, domain=S.Complexes)</code>.</p>
+<h1 id="Solvers">Solvers<a class="anchor-link" href="#Solvers"></a></h1><h2 id="Basic-equations">Basic equations<a class="anchor-link" href="#Basic-equations"></a></h2><p>The main function for solving algebraic equations is <code>solveset()</code>. The syntax for <code>solveset()</code> is <code>solveset(equation, variable=None, domain=S.Complexes)</code>.</p>
 
 </div>
 </div>
@@ -3789,7 +3787,7 @@ $\displaystyle \left\{ 0 : 1, \  3 : 2\right\}$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Linear-System">Linear System<a class="anchor-link" href="#Linear-System">&#182;</a></h2>
+<h2 id="Linear-System">Linear System<a class="anchor-link" href="#Linear-System"></a></h2>
 </div>
 </div>
 </div>
@@ -3797,7 +3795,7 @@ $\displaystyle \left\{ 0 : 1, \  3 : 2\right\}$
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><code>linsolve()</code> is the solver to solve a linear system. A linear system can be defined using differet method.</p>
-<h3 id="list-of-equations">list of equations<a class="anchor-link" href="#list-of-equations">&#182;</a></h3>
+<h3 id="list-of-equations">list of equations<a class="anchor-link" href="#list-of-equations"></a></h3>
 </div>
 </div>
 </div>
@@ -3918,7 +3916,7 @@ $\displaystyle \left\{\left( - y - 1, \  2\right)\right\}$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Augmeted-matrix-form">Augmeted matrix form<a class="anchor-link" href="#Augmeted-matrix-form">&#182;</a></h3>
+<h3 id="Augmeted-matrix-form">Augmeted matrix form<a class="anchor-link" href="#Augmeted-matrix-form"></a></h3>
 </div>
 </div>
 </div>
@@ -4000,7 +3998,7 @@ $\displaystyle \left\{\left( - y - 1, \  y, \  2\right)\right\}$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="$Ax-=-b$-form">$Ax = b$ form<a class="anchor-link" href="#$Ax-=-b$-form">&#182;</a></h3>
+<h3 id="$Ax-=-b$-form">$Ax = b$ form<a class="anchor-link" href="#$Ax-=-b$-form"></a></h3>
 </div>
 </div>
 </div>
@@ -4083,7 +4081,7 @@ $\displaystyle \left\{\left( - y - 1, \  y, \  2\right)\right\}$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Non-linear-Systems">Non-linear Systems<a class="anchor-link" href="#Non-linear-Systems">&#182;</a></h2>
+<h2 id="Non-linear-Systems">Non-linear Systems<a class="anchor-link" href="#Non-linear-Systems"></a></h2>
 </div>
 </div>
 </div>
@@ -4171,7 +4169,7 @@ $\displaystyle \left[ \left( 2, \  \frac{1}{2}\right)\right]$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Differential-equition">Differential equition<a class="anchor-link" href="#Differential-equition">&#182;</a></h2><p>First define needed function symbol variables.</p>
+<h2 id="Differential-equition">Differential equition<a class="anchor-link" href="#Differential-equition"></a></h2><p>First define needed function symbol variables.</p>
 
 </div>
 </div>
@@ -4367,7 +4365,7 @@ $\displaystyle f{\left(x \right)} = C_{1}$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Reference">Reference<a class="anchor-link" href="#Reference">&#182;</a></h1><p><a href="http://docs.sympy.org/latest/index.html">Sympy Documentation</a></p>
+<h1 id="Reference">Reference<a class="anchor-link" href="#Reference"></a></h1><p><a href="http://docs.sympy.org/latest/index.html">Sympy Documentation</a></p>
 
 </div>
 </div>
@@ -4417,7 +4415,8 @@ $\displaystyle f{\left(x \right)} = C_{1}$
                         // Which headings to grab inside of the contentSelector element.
                         headingSelector: 'h1, h2, h3',
                         // For headings inside relative or absolute positioned containers within content.
-                        hasInnerContainers: true,
+                        hasInnerContainers: false,
+                        ignoreSelector: 'a'
                     });
                 </script>
 
